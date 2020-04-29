@@ -1,4 +1,0 @@
-plugins:
-  featuredlink_rewriter:
-    default: "See Original Article"
-    client: true
