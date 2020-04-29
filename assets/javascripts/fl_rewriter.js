@@ -1,5 +1,5 @@
 (function($) {
      $(".topic-featured-link").each(function() {
-      $(this).childNodes[1].textContent = 'See Original Article';
+      $(this).html('<svg class="fa d-icon d-icon-external-link-alt svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#external-link-alt"></svg> See Original Article');
     });
 })(jQuery);
