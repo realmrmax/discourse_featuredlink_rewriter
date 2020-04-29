@@ -4,3 +4,4 @@
 # authors: Maxym Khaykin
 # url: https://github.com/realmrmax/discourse_featuredlink_rewriter
 
+enabled_site_setting :featuredlink_rewriter

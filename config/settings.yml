@@ -1,0 +1,4 @@
+plugins:
+  featuredlink_rewriter:
+    default: "new text"
+    client: true
