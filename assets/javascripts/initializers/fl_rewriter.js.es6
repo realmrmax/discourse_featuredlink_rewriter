@@ -1,7 +1,8 @@
 export default {
-  name: 'fl_rewriter',
-  initialize() {
+  name: 'featuredlink_rewriter',
+  initialize(container) {
+    const siteSettings = container.lookup("site-settings:main");
     console.log('working');
-    console.log(this.siteSetting.featuredlink_rewriter);
+    console.log(siteSettings.featuredlink_rewriter);
   }
 };
