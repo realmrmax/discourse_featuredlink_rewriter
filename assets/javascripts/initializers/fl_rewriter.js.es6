@@ -3,6 +3,6 @@ export default {
   initialize(container) {
     const siteSettings = container.lookup("site-settings:main");
     console.log(siteSettings.featuredlink_rewriter);
-		f_links = $(".topic-featured-link");
+		const f_links = $(".topic-featured-link");
    }
 };
