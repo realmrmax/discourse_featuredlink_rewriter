@@ -1,4 +1,4 @@
 plugins:
   featuredlink_rewriter:
-    default: "new text"
+    default: "See Original Article"
     client: true
